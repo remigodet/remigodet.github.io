@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - remigodet
 
 repo_description_lines_max: 2
 
 github_repos:
+  - remigodet/LLM-detection-through-interaction
+  - remigodet/Outlier_detection
+  - remigodet/low-dim-cooperative-RL-adversarial-attack
   - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
