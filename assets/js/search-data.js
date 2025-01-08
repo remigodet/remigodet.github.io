@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Read about my past experiences and projects here.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -58,28 +58,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "dropdown-publications",
-              title: "publications",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "";
-              },
-            },{id: "dropdown-projects",
-              title: "projects",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-image-galleries",
+        },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
@@ -492,35 +471,14 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%72%65%6D%67%6F%64%65%74@%6F%75%74%6C%6F%6F%6B.%66%72", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://github.com/remigodet", "_blank");
         },
       },{
       id: 'light-theme',
